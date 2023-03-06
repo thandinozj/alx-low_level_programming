@@ -11,7 +11,7 @@ for (; *haystack != '\0'; haystack++)
 {
 char *l = haystack;
 char *p = needle;
-while (*1 == *p && *p != '\0')
+while (*l == *p && *p != '\0')
 {
 l++;
 p++;
