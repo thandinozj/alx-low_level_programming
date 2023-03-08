@@ -2,15 +2,15 @@
 /**
  * _puts_recursion - prints a string
  * @s: pointer block of memory to fill
- * Return: void
+ * Return: always 0 success
  */
 void _puts_recursion(char *s)
 {
-if (*s == '\0')
+if (*s)
 {
-_putchar('\n');
-return;
-}
-_putchar (*s);
+_putchar(*s);
 _puts_recursion(s + 1);
+}
+else
+_putchar('\n');
 }
