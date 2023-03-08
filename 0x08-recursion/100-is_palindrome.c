@@ -10,7 +10,7 @@ if (!*s)
 {
 return (0);
 }
-return (1 + _strlen_recursive(+ss));
+return (1 + _strlen_recursion(+ss));
 }
 /**
  * p1 - palindrome
