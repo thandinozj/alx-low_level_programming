@@ -18,7 +18,7 @@ return (1 + _strlen_recursion(++s));
  * @l: position
  * Return: boolena
  */
-int p1(char *s, int l)
+int palindrome(char *s, int l)
 {
 if (l < 1)
 {
